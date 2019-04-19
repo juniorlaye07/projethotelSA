@@ -1,0 +1,87 @@
+
+.chambre{
+    width: 100%;
+    height: auto;
+    color: rgb(13, 15, 54);
+    text-shadow: 3px 14px 13px #5c5e67;
+
+}
+
+#champ {
+    margin-top: 120px;
+}
+.btnpop{
+    cursor: pointer;
+ }
+.bckpop {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup{
+    margin: 20% auto;
+    width: 100%;
+    padding: 10px;
+}
+.clospop{
+    float: right;
+    cursor: pointer;
+}
+.chambre p a img{
+    width: 40%;
+    border: 5px solid white;
+}
+.description{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.ch{
+    float: right ;
+    width: 30%;
+    height: auto; 
+}
+.coaur {
+    margin: auto;
+    width: 80%;
+    height: auto;
+   /* margin-top: 0px;
+    margin-bottom: 0px;*/
+  
+
+}
+.prtidroit {
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-bottom: 0px;
+}
+.fit-picture {
+    width: 500px;
+    height: 250px;
+
+}
+.prtigouchH {
+    margin: auto;
+    margin-top: 0px;
+    width: 49%;
+    height: 150px;
+    float: right;
+}
+.partigouchB {
+    margin: auto;
+    margin-top: 0px;
+    width: 49%;
+    height: 150px;
+    float: right;
+}
+
+footer
+{
+  margin-top: 485px;
+}

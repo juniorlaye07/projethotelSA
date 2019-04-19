@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="sahotel.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>Acceil</title>
+    </head>
+    <body>
+        <div class="page">
+            <div id="page1">
+                <header>
+                    <img src="cap2.png" alt="logo">
+                </header>
+                <nav>
+                    <ul>
+                        <li> <a href="sahotel.html">Acceuil</a></li>
+                        <li> <a href="Chambre.html">Chambres</a>
+                            <ul class="sous-menu">
+                                <li> <a href="#">Luxes</a></li>
+                                <li> <a href="#">Connectées</a></li>
+                                <li> <a href="#">Gammers</a></li>
+                            </ul> 
+                        </li>
+                        <li> <a href="Description.html">Déscriptions</a>
+                            <ul class="sous-menu">
+                                <li> <a href="#">Luxes</a></li>
+                                <li> <a href="#">Connectées</a></li>
+                                <li> <a href="#">Gammers</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="Contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="contenu">
+                <img src="contact.png" alt="Images de Background">
+                <img src="connecte.jpg" alt="Images de Background">
+                <img src="diapo.jpg" alt="Images de Background">
+                <img src="fond2.jpg" alt="Images de Background">
+            </div>
+            <!-- Third Container (Grid) -->
+            <div class="container-fluid bg-3 text-center">    
+                <h3 class="margin">Mes Services</h3><br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Avec la connexion de l’ensemble des éléments dans une chambre et d’en donner le contrôle aux clients Éclairage,télévision,et rideaux,voilà les éléments qui pourront être piloté depuis l’application dédiée.</p>
+                        <img src="cc.jpeg" class="img-responsive margin" style="width:97%" alt="Image">
+                    </div>
+                    <div class="col-sm-4"> 
+                        <p>Avec des produits d'accueil de luxe, une connexion Wi-Fi gratuite et une télévision écran plat LCD, chaque chambre répond aux exigences du voyageur moderne tout en gardant un air glamour et une ambiance relaxante.</p>
+                        <img src="cg.jpg" class="img-responsive margin" style="width:98%" alt="Image">
+                    </div>
+                    <div class="col-sm-4"> 
+                        <p>cet hôtel propose des chambres suréquipées dédiées aux gamers.Si vous voulez juste vous reposer devant les LCS, pas de problème. Une salle dans le lobby vous permet de mater de le sport 24h/24 sur un écran géant. </p>
+                        <img src="cl.jpeg" class="img-responsive margin" style="width:110%" alt="Image">
+                    </div>
+                </div>
+            </div>
+
+            <section class="block parallax" id="reservations" >
+                <div class="layer">
+                    <div class="fixed-img sec-bg1"></div>
+                    <div id="reservations" class="container">
+                        <div class="heading">
+                            <h2><i>RÉSERVEZ UNE CHAMBRE</i></h2>
+                        </div>
+                        <div class="top-margin">
+                            <div class="row">
+                                <form class="booking-form" action="" method="POST" target="_blank">
+                                    <div class="col-md-2 fieldset">
+                                        <label>Arrivée:</label>
+                                        <input type="date" name="arrival" class="span2 input-style" id="check-in" placeholder="jj/mm/aaaa" />
+                                    </div>
+                                    <div class="col-md-2 fieldset">
+                                        <label>Départ:</label>
+                                        <input type="date" name="depart" size="12" class="input-style" id="check-out" placeholder="jj/mm/aaaa"/>
+                                    </div>
+                                    <div class="col-md-2 fieldset">
+                                        <label>Adultes:</label>
+                                        <select name="adults" class="input-style">
+                                            <option value="1" style="color:#000;">1</option>
+                                            <option value="2" style="color:#000;">2</option>
+                                            <option value="3" style="color:#000;">3</option>
+                                            <option value="4" style="color:#000;">4</option>
+                                            <option value="5" style="color:#000;">5</option>
+                                            <option value="6" style="color:#000;">6</option>
+                                            <option value="7" style="color:#000;">7</option>
+                                            <option value="8" style="color:#000;">8</option>
+                                            <option value="9" style="color:#000;">9</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2 fieldset">
+                                        <label>Enfants:</label>
+                                        <select name="children" id="" class="input-style">
+                                            <option value="0" style="color:#000;">0</option>
+                                            <option value="1" style="color:#000;">1</option>
+                                            <option value="2" style="color:#000;">2</option>
+                                            <option value="3" style="color:#000;">3</option>
+                                            <option value="4" style="color:#000;">4</option>
+                                            <option value="5" style="color:#000;">5</option>
+                                            <option value="6" style="color:#000;">6</option>
+                                            <option value="7" style="color:#000;">7</option>
+                                            <option value="8" style="color:#000;">8</option>
+                                            <option value="9" style="color:#000;">9</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2 fieldset">
+                                        <label>Type de Chambres</label>
+                                        <select name="chambres" id="" class="input-style">
+                                            <option value="0" style="color:#000;">Chambres Connectées</option>
+                                            <option value="1" style="color:#000;">Chambres de Luxes</option>
+                                            <option value="2" style="color:#000;">Chambres Gaming</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2 fieldset">
+                                        <label for=""></label>
+                                        <button type="submit" name="submit" class="submit"><i class="fa fa-legal"></i>RÉSERVER</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Footer -->
+        <footer class="flex-rw">
+  
+            <ul class="footer-list-top">
+              <li>
+                <h4 class="footer-list-header">A Propos</h4></li>
+              <li><a href='/shop/about-mission' class="generic-anchor footer-list-anchor" itemprop="significantLink">Nous Connaitre</a></li>
+              <li><a href='/promos.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Nos Positions</a></li>
+              <li><a href='/retailers/new-retailers.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">Services</a></li>
+          
+              <li><a href='/job-openings.html' itemprop="significantLink" class="generic-anchor footer-list-anchor">Réservation</a></li>
+          
+              <li><a href='/shop/about-show-schedule' class="generic-anchor footer-list-anchor" itemprop="significantLink">Évenements</a></li>
+            </ul>
+            <ul class="footer-list-top">
+
+            </ul>
+            <ul class="footer-list-top">
+              <li id='help'>
+                <h4 class="footer-list-header">Please Help Me</h4></li>
+              <li><a href='/shop/about-contact' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+              <li><a href='/faq.html' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+              <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">Ouverture</a></li>
+              <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">Nouvel Utilisateur</a></li>
+              <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">Commande</a></li>
+            </ul>
+            <section class="footer-social-section flex-rw">
+                <span class="footer-social-overlap footer-social-connect">
+                SUIVEZ <span class="footer-social-small">nous</span> SUR
+                </span>
+                <span class="footer-social-overlap footer-social-icons-wrapper" id="lien">
+                <a href="https://www.pinterest.com/paviliongift/" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+                <a href="https://www.facebook.com/paviliongift" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/PavilionGiftCo" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+                <a href="http://instagram.com/paviliongiftcompany" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCYgUODvd0qXbu_LkUWpTVEg" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+                <a href="https://plus.google.com/+Paviliongift/posts" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+                </span>
+            </section>
+            <section class="footer-bottom-section flex-rw">
+                <div class="footer-bottom-wrapper">   
+                    <i class="fa fa-copyright" role="copyright" >
+                    </i> 2019 Sonatel Academy <address class="footer-address" role="company address">Mermoz, Dakar, Sénégal</address><span class="footer-bottom-rights"> - Toutes reproductions interdites - </span>
+                </div>
+                <div class="footer-bottom-wrapper">
+                    <a href="/terms-of-use.html" class="generic-anchor" rel="nofollow">Termes</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Contrat</a>
+                </div>
+            </section>
+          </footer>
+    </body>
+</html>

@@ -1,0 +1,134 @@
+.page
+{
+    padding: 5px;
+    margin: 0px;
+    background-size: 100%;
+}
+header 
+{
+    margin: 4px auto;
+    background-color: white;
+}
+img
+{
+    border-radius: 16px 6px 16px 6px;
+   
+}
+header img
+{
+    border:2px solid #084AC5;
+}
+nav
+{
+    margin: -55px;
+    padding: -20px;
+    margin-bottom: 0px;
+    margin-left: 15%;
+    text-transform: uppercase;
+   
+}
+.line
+{
+    margin-bottom: 45px;
+    height: 350px;
+}
+nav ul li a
+{
+    color:rgb(245, 248, 255);
+    font-style: italic;
+    text-decoration: none;
+}
+.sous-menu
+{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+nav li:hover .sous-menu
+{
+    display: block;
+}
+nav .sous-menu li
+{
+    display: block;
+    margin-left: -16px;
+    width: 100%;
+}
+nav li
+{
+    display: inline-block;
+    height: 45px;
+    width: 18%;
+    line-height: 15px;
+    text-align:center;
+    background-color:#084AC5;
+    border-radius: 16px 6px 16px 6px;
+    font-style: italic;
+    padding: 15px;
+    margin: 5px;   
+}
+nav::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+footer
+{
+  margin-top: 489px;
+  background-image: url("/home/juniorlaye/Documents/fond2.jpg");
+  border-radius: 8px;
+}
+header
+{
+    
+    border-radius: 8px;
+}
+
+.description1{
+    float: left;
+    width: 50%;
+    padding:8px;
+    font-style: italic;
+
+}
+.chluxe{
+    float: left ;
+    width: 50%;
+}
+.description2
+{
+    float: right;
+    width: 50%;
+    font-style: italic;
+    padding: 8px;
+}
+.chgammer
+{
+    float: right;
+    width: 50%;
+    padding: 15px;
+}
+.description3
+{
+    float: left;
+    width: 50%;
+    font-style: italic;
+    /*font-family: Nadia Sofia;*/
+    padding: 8px;
+}
+.chconnect
+{
+    float: right;
+    width: 50%;
+    padding: 8px;
+}
+strong
+{
+    color:#084AC5;
+}
+#s
+{
+    font-size: 35px;
+    font-family: trendy;
+}

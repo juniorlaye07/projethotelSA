@@ -1,0 +1,211 @@
+.heading {
+    margin: 0 auto;
+    width: 45%;
+}
+.top-margin .row {
+    margin-top: 80px;
+    height: 110px;
+}
+.row form input[type="text"] {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #084AC5;
+}
+
+.row form input[type="date"] {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #084AC5;
+}
+
+.row form select {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: 2px solid #084AC5;
+}
+.row form button[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background: #084AC5;;
+    border: 2px dashed #FFF;
+    color: #FFF;
+}
+.layer {
+    background: #FFF;
+    border: 2px dashed #084AC5;
+    color: #084AC5;
+}
+
+.top-margin .row form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.contact {
+    background-image: url("../images/contact.png");
+    height: 750px;
+}
+
+#box {
+    padding: 30px;
+    margin: 0 auto;
+    width: 70%;
+    box-shadow: 5px 5px 5px 5px #084AC5;
+    background: #FFF;
+}
+
+.contact .container{
+    width: 60%;
+}
+
+.contact h3{
+    text-align: center;
+    text-decoration: underline #084AC5;
+    text-transform: uppercase;
+}
+.contact input[type=text], .contact select, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+ .contact form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ .contact form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  @import "bootstrap-social.less";
+
+  #liens nav ul li a{
+      font-size: 40px;
+      margin-top: -25px;
+  }
+  #liens {
+      height: 250px;
+      margin-top: 70px;
+  }
+
+  #lien a {
+      color: #FFF;
+  }
+
+ #auto {
+    width: 50%;
+    margin: 0 auto;
+ }
+
+  #liens nav li{
+      width: 15%;
+  }
+
+  h3 {
+    border-radius: 16px 16px 16px 16px;
+    padding: 35px;
+    border: 1px dashed #FFF;
+    margin: 0 auto;
+    width: 21%;
+    background: #084AC5;
+    color: #FFF;
+    text-transform: uppercase;
+  }
+  h2 {
+    border-radius: 16px 16px 16px 16px;
+    padding: 35px;
+    border: 1px dashed #FFF;
+    margin: 0 auto;
+    width: 100%;
+    background: #084AC5;
+    color: #FFF;
+  }
+
+  #box h3 {
+      width: 35%;
+  }
+
+#contenu {
+      width:100%; 
+      height:650px; 
+      overflow:hidden; 
+      position:relative; 
+    }
+#contenu img{ 
+    position:absolute; 
+    animation: contenu 20s infinite; 
+    opacity:0; 
+    width: 100%; 
+    height: auto;
+}
+
+@keyframes contenu {25%{opacity:1;} 40%{opacity:0;}} 
+#contenu img:nth-child(4){animation-delay:0s;}
+#contenu img:nth-child(3){animation-delay:5s;}
+#contenu img:nth-child(2){animation-delay:10s;}
+#contenu img:nth-child(1){animation-delay:15s;}
+
+#hh {
+    background: #084AC5;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+#services {
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+#services h3 {
+    width: 50%;
+    text-align: center;
+}
+#reservation {
+    height: 750px;
+    margin: 0 auto;
+    width: 60%;
+}
+#reservations {
+    width: 100%;
+}
+#reservation h2 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#reservation .layer {
+    border: 0px dashed #084AC5;
+}
+
+#reservation .row form button[type="submit"] {
+    width: 100%;
+    height: 50px;
+    background: #084AC5;;
+    border: 0px dashed #FFF;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.description {
+    float: left;
+    width: 40%;
+}
+.images {
+    float: left;
+    width: 60%;
+}
+.images img {
+    width: 80%;
+}
